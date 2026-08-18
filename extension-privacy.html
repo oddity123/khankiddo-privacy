@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khan Kiddo 浏览器扩展隐私政策</title>
+  <meta name="description" content="Khan Kiddo Chrome 与 Edge 浏览器扩展的数据处理、权限、存储和用户选择说明。">
+  <style>
+    body {
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      max-width: 720px;
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #222;
+    }
+    h1 { font-size: 1.6rem; line-height: 1.3; }
+    h2 { margin-top: 2rem; font-size: 1.15rem; }
+    h3 { margin: 1rem 0 0.25rem; font-size: 1rem; }
+    p, li { color: #333; }
+    .meta { color: #666; font-size: 0.9rem; }
+    a { color: #0b1a7d; }
+    .notice { padding: 12px 14px; background: #f6f4ea; }
+  </style>
+</head>
+<body>
+  <h1>Khan Kiddo 浏览器扩展隐私政策</h1>
+  <p class="meta">生效及更新日期：2026 年 8 月 15 日 · Chrome / Edge 适用</p>
+  <p>我们把数据边界写清楚：扩展只在你主动操作后，读取指定的 ChatGPT 公开分享内容，并将其导入 Khan Kiddo 分析页。</p>
+  <p><strong>扩展的单一用途：</strong>导入用户指定的公开对话，帮助用户发起英语学习分析。</p>
+
+  <h2>快速摘要</h2>
+  <ul>
+    <li><strong>主动触发：</strong>不会在后台持续扫描网页</li>
+    <li><strong>公开内容：</strong>不读取 ChatGPT 密码或登录 Cookie</li>
+    <li><strong>临时传递：</strong>导入内容被分析页读取后即从会话缓存移除</li>
+    <li><strong>用途限定：</strong>不出售数据，不用于个性化广告</li>
+  </ul>
+
+  <h2>1. 适用范围与运营者</h2>
+  <p>本政策适用于 Khan Kiddo 在 Google Chrome 和 Microsoft Edge 上发布的浏览器扩展。扩展由 Khan Kiddo 项目运营者提供。本政策仅说明扩展导入功能的数据处理；当你继续使用 Khan Kiddo 网站的账号、分析、历史记录或留言功能时，相关页面展示的说明也同时适用。</p>
+
+  <h2>2. 我们处理哪些数据</h2>
+  <h3>你主动提供的分享信息</h3>
+  <p>ChatGPT 公开分享链接，以及链接中包含的公开分享 ID。</p>
+  <h3>公开页面中的对话内容</h3>
+  <p>分享标题、用户与助手的文本消息、Voice 转写字幕、消息数量及导入时间。</p>
+  <h3>本地偏好</h3>
+  <p>你是否同意扩展数据说明；开发调试版本还可能保存你主动填写的测试站点地址。</p>
+  <h3>必要的服务日志</h3>
+  <p>当你访问 Khan Kiddo 网站时，服务器可能产生时间、请求状态、IP 地址等安全与运行日志。</p>
+  <p class="notice"><strong>扩展不会读取</strong>你的 ChatGPT 密码、身份验证 Cookie、私密会话列表、浏览器历史记录，也不会持续监控你访问的其他网站。</p>
+
+  <h2>3. 数据如何流转</h2>
+  <ol>
+    <li><strong>你主动发起：</strong>粘贴公开分享链接，或在公开分享页点击“导入到 Khan Kiddo”。</li>
+    <li><strong>扩展在本机整理内容：</strong>扩展从 ChatGPT 公共分享接口获取 JSON，并在浏览器内提取标题和对话文本。</li>
+    <li><strong>临时交给分析页：</strong>内容被写入 khankiddo.top 分析页的会话缓存；页面读取后会立即移除该缓存项。</li>
+    <li><strong>由你决定是否分析：</strong>只有你继续点击“开始分析”后，内容才会提交到 Khan Kiddo 服务端和所选 AI 服务。</li>
+  </ol>
+
+  <h2>4. 使用目的与第三方服务</h2>
+  <p>我们仅为完成扩展公开说明的导入与分析功能而处理上述数据，包括解析分享、填充分析输入框、生成分析结果、保障服务安全和排查故障。</p>
+  <p>获取公开分享内容时，浏览器会连接 ChatGPT（OpenAI）服务。你开始 AI 分析后，对话内容可能根据页面显示的模型选择和处理阶段，发送至 Khan Kiddo 服务端，以及豆包/火山方舟或通义千问等 AI 服务提供方。我们不会将扩展取得的数据出售给第三方，也不会用于个性化、重定向或兴趣广告。</p>
+  <p>Khan Kiddo 扩展对用户数据的使用遵守 Chrome Web Store User Data Policy 的 Limited Use 要求：数据仅用于提供或改进扩展面向用户的单一功能，并仅在提供该功能、安全防护、履行法律义务或取得用户明确同意的其他必要情形下传输。</p>
+
+  <h2>5. 存储期限与删除</h2>
+  <ul>
+    <li>扩展不会持久保存导入的对话正文；分析页读取后会从会话缓存移除。</li>
+    <li>未登录体验的分析结果不会进入账号历史记录；页面刷新后可能无法恢复。</li>
+    <li>登录用户主动保存或产生的分析记录，会保留在账号中，直至用户在历史记录中删除。</li>
+    <li>同意状态会保存在浏览器扩展本地存储中；你可以在扩展弹窗取消同意，或卸载扩展以移除。</li>
+    <li>安全及运行日志按照保障系统安全和排查故障所需的合理期限保留。</li>
+  </ul>
+
+  <h2>6. 安全、你的选择与未成年人</h2>
+  <p>扩展和生产站使用 HTTPS 传输数据，并通过限定网站访问范围、最小权限和 Manifest V3 限制扩展能力。任何网络服务都无法承诺绝对安全，因此请勿在公开分享中放入密码、证件号码、支付信息或其他不必要的敏感信息。</p>
+  <p>你可以拒绝或撤回扩展中的数据使用同意、停止导入、删除分析历史，或通过留言页面提出访问、更正、删除及其他隐私请求。请只导入你有权处理的内容；未成年人应在监护人指导下使用本服务，不应提交自己或他人的敏感个人信息。</p>
+
+  <h2>7. 政策更新与联系我们</h2>
+  <p>如果扩展的数据种类、用途或共享对象发生实质变化，我们会更新本页面，并在扩展界面中重新提示和取得同意。若你对本政策、扩展权限或数据处理有疑问，请通过 <a href="https://khankiddo.top/feedback">Khan Kiddo 留言页面</a>联系我们。</p>
+
+  <p class="meta">Khan Kiddo · Learn clearly. Speak freely. · <a href="https://khankiddo.top">返回首页</a></p>
+</body>
+</html>
